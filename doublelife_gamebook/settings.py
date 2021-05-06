@@ -2,7 +2,7 @@ from kivy.uix.screenmanager import Screen
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-from doublelife.utils import images_path
+from utils import images_path
 
 class SettingsScreen(Screen):
     initialized = False
@@ -28,6 +28,6 @@ class SettingsScreen(Screen):
         self.clear_widgets()
         
     def goto_menu(self, instance):
-        self.manager.current = "menu"
+        self.manager.current = 'menu'
    
 

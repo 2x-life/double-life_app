@@ -3,21 +3,19 @@ Double Life
 #############
 
 
-
-*
-
-
 PC Installation
 ================
 
 At the root of the projet run:
 
-``$ pip3 install .``
+``$ pip3 install -e .``
 
 
-Thensimply run in a terminal:
+To run the app use:
 
-``$ doublelife``
+``$ python3 doublelife_gamebook/main.py``
+
+
 
 Build Android APK
 =================

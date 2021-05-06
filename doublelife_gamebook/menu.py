@@ -2,9 +2,9 @@ from kivy.uix.screenmanager import Screen
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-from doublelife.screens.settings import SettingsScreen
-from doublelife.screens.newgame import NewGameScreen
-from doublelife.utils import images_path
+from settings import SettingsScreen
+from newgame import NewGameScreen
+from utils import images_path
 
 class MenuScreen(Screen):
     initialized = False
@@ -16,7 +16,6 @@ class MenuScreen(Screen):
             self.widgets["title_layout"] = AnchorLayout(anchor_x = "center", anchor_y = "top")
             self.widgets["title_layout"].add_widget(Label(text='Menu', size_hint = (0.1,0.1)))
             self.widgets["settings_layout"] = AnchorLayout(anchor_x = "right", anchor_y = "top")
-            print(images_path)
             self.widgets["settings_layout"].add_widget(Button(                   
                 background_normal = f'{images_path}/settings.png',
                 background_down = f'{images_path}/settings.png',

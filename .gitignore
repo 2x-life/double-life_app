@@ -1,0 +1,4 @@
+.buildozer
+doublelife_gamebook.egg-info
+**__pycache__
+bin

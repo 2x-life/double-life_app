@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = DoubleLife
+title = DoubleLife Gamebook
 
 # (str) Package name
-package.name = doublelife
+package.name = doublelife_gamebook
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.doublelife
+package.domain = org.doublelife_gamebook
 
 # (str) Source code where the main.py live
-source.dir = doublelife
+source.dir = doublelife_gamebook
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png
+source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -28,11 +28,11 @@ source.include_exts = py,png
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-#version = 0.1
+version = 0.1
 
 # (str) Application versioning (method 2)
-version.regex = __version__ = ['"](.*)['"]
-version.filename = %(source.dir)s/main.py
+# version.regex = __version__ = ['"](.*)['"]
+# version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy

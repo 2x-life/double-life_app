@@ -3,8 +3,8 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-from doublelife.screens.story import StoryScreen
-from doublelife.utils import images_path
+from story import StoryScreen
+from utils import images_path
 
 class NewGameScreen(Screen):
     initialized = False
